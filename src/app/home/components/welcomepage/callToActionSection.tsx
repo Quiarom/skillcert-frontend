@@ -26,15 +26,6 @@ const CallToActionSection: React.FC = () => {
           </button>
         </div>
       </div>
-       <style>
-        {`
-          @media (min-width: 768px) {
-            #CallToActionSection {
-              background-image: url('/images/call-to-action-bg-mobile.svg');
-            }
-          }
-        `}
-      </style>
     </section>
   );
 };
